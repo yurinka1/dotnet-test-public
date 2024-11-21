@@ -1,0 +1,17 @@
+<Project Sdk='Microsoft.NET.Sdk'>
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <RootNamespace>ShortNameToLongName</RootNamespace>
+        <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+        <RollForward>LatestMajor</RollForward>
+        <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include='Newtonsoft.Json' Version='13.0.3' />
+        <PackageReference Include='NuGet.Frameworks' Version='6.7.0' />
+        <PackageReference Include='DotnetClassLibTest' Version='1.0.1' />
+    </ItemGroup>
+</Project>
